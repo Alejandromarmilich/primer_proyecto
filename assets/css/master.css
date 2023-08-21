@@ -1,0 +1,192 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(0deg, #1572b6, #00aaaa,#1572b6);
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 0px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 5%; /* Borde redondeado de 10px para suavizar el contorno */    
+}
+
+a {
+    color: #fefefa;
+}
+
+h2 {
+    color:#fefefa;
+    font-size: 1.4rem;
+}
+
+.parrafo {
+    color: #fefefa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Barra de navegación */
+
+.nav-item a {
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #fefefa;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.nav-item a:hover i {
+    color: #fefefa;
+    filter: drop-shadow(0 0 2px #fefefa) drop-shadow(0 0 5px #fefefa) drop-shadow(0 0 15px #fefefa);
+}
+
+
+/* Contenedores */
+
+.contenedor {
+    margin: 5% 0;
+    height: 60%;
+}
+
+.contenedor-carousel {
+    margin: 5% 10%;
+}
+
+.titulo {
+    background-color: #1572b6;
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: #1884d1;
+}
+
+/* Carrusel */
+
+.contenedor-carousel-control {
+    position: relative;
+}
+
+.carousel-control-siguiente,
+.carousel-control-anterior {
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    margin-top: -67%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease
+}
+
+@media (prefers-reduced-motion:reduce) {
+
+    .carousel-control-siguiente,
+    .carousel-control-anterior {
+        transition: none
+    }
+}
+
+.carousel-control-siguiente:focus,
+.carousel-control-siguiente:hover,
+.carousel-control-anterior:focus,
+.carousel-control-anterior:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9
+}
+
+.carousel-control-anterior {
+    left: 0
+}
+
+.carousel-control-siguiente {
+    right: 0
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+/* Catalogo */
+
+.card {
+    width: auto;
+    
+}
+
+.card-text .card-tittle {
+    color: #fefefa;
+}
+
+.card-img-top {
+    height: 10rem;
+    object-fit: contain;
+}
+
+/* Pie de página - footer */
+
+footer {
+    min-height: 100px;
+    justify-content: flex-end;
+}
+
+.contenedor-iconos a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fefefa;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.contenedor-iconos i {
+    color: #fefefa;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.contenedor-iconos a:hover {
+    border: 2px solid #fefefa;
+    background: #fefefa;
+    transform: scale(1.4);
+    filter: drop-shadow(0 0 2px #33a9dc) drop-shadow(0 0 5px #33a9dc) drop-shadow(0 0 15px #33a9dc);
+}
+
+.contenedor-iconos a:hover i {
+    color: #fefefa;
+    filter: drop-shadow(0 0 2px #33a9dc) drop-shadow(0 0 5px #33a9dc) drop-shadow(0 0 15px #33a9dc);
+}
+
+@media screen and (min-width: 500px) {
+    .card {
+        width: 16rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .card {
+        width: 16rem;
+    }
+}
