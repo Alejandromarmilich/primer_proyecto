@@ -3,8 +3,8 @@
 <nav class="navbar navbar-expand-lg bg-body-green">
     <div class="container-fluid">
         <a class="navbar-brand me-auto barra" href="<?php echo base_url('principal')?>">
-    <!-- Logo de la empresa  -->
-    <img src="./assets/img/glow_logo.webp" alt="logo marca" width='50' class='img-fluid'>
+        <!-- Logo de la empresa  -->
+        <img src="./assets/img/glow_logo.webp" alt="logo marca" width='50' class='img-fluid logo-navbar'>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
