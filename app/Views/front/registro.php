@@ -1,6 +1,6 @@
 <div class='container mx-md-auto p-md-5'>
-    <h2>Ingrese sus datos para regsistrarse</h2>
-    <form class="row g-3">
+    <h2>Ingrese sus datos para registrarse</h2>
+    <form class="container row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Correo electrónico</label>
     <input type="email" class="form-control" id="inputEmail4" placeholder="ingrese su correo electrónico">
@@ -11,7 +11,7 @@
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Dirección</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Calle principal">
+    <input type="text" class="form-control" id="inputAddress" placeholder="Calle principal 1234">
   </div>  
   <div class="col-md-6">
     <label for="inputCity" class="form-label">Ciudad</label>
@@ -20,12 +20,12 @@
   <div class="col-md-4">
     <label for="inputState" class="form-label">Provincia</label>
     <select id="inputState" class="form-select">
-      <option selected>Selecciona...</option>
-      <option value="Buenos Aires">Buenos Aires</option>
+    <option selected>Selecciona...</option>
+    <option value="Buenos Aires">Buenos Aires</option>
     <option value="Catamarca">Catamarca</option>
     <option value="Chaco">Chaco</option>
     <option value="Chubut">Chubut</option>
-      <option value="Córdoba">Córdoba</option>
+    <option value="Córdoba">Córdoba</option>
     <option value="Corrientes">Corrientes</option>
     <option value="Entre Ríos">Entre Ríos</option>
     <option value="Formosa">Formosa</option>
@@ -54,12 +54,12 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
       <label class="form-check-label" for="gridCheck">
-        Mantenme conectado
+        Mantenerme conectado
       </label>
     </div>
   </div>
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+    <button type="submit" class="btn btn-primary">Registrarme</button>
   </div>
 </form>
 </div>

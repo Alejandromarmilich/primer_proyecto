@@ -1,5 +1,5 @@
 <footer class="footer-content">
-        <div class='container'>
+        <div class='container my-3'>
             <div class='row row-cols-4 justify-content-center'>
                 <!-- Facebook -->
                 <div class='col-auto contenedor-iconos'>
@@ -20,10 +20,10 @@
             </div>
         </div>
         <div class='container my-3 text-center'>
-            <p>Derechos de autor &copy; 2023 Mi página web. <br> Todos los derechos reservados</p>
+            <p>Derechos de autor &copy; 2023 Glow Web Design. <br> Todos los derechos reservados</p>
         </div>        
     </footer>
     
-    <script src=".\assets\js\bootstrap.min.js"></script>
+    <script src=".\assets\js\bootstrap.bundle.min.js"></script>
 </body>
 </html>

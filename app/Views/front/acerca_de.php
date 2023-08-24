@@ -1,5 +1,6 @@
 <div class='container mx-md-auto p-md-5'>
     <h2 class='text-center'>Acerca de Glow Technology</h2>
+    <img src="./assets/img/Mockup_Macbook_iPhone.png" class="rounded glow_quienes float-start m-3" alt="logo glow" width='300'>
     <p class='parrafo'>En Glow Technology, nuestra pasión es iluminar tu vida a través de la innovación tecnológica. Somos una empresa dedicada a crear experiencias móviles extraordinarias que se adaptan a tu estilo de vida y te conectan con un mundo de posibilidades.
 
         </p>
@@ -34,7 +35,7 @@
         
     </p>
     <h2 class='text-center'>
-        Guillermo García - CEO
+        Cristian Ferreira <br> CEO
         Glow Technology
     </h2>
 </div>

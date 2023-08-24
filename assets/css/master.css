@@ -13,9 +13,7 @@ body {
 img {
     display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
     margin: 0 auto; /* Centrar las imágenes horizontalmente */
-    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
-    border: 0px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
-    border-radius: 5%; /* Borde redondeado de 10px para suavizar el contorno */    
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */       
 }
 
 a {
@@ -75,7 +73,7 @@ h2 {
     background-color: #1884d1;
 }
 
-/* Carrusel */
+/* Principal - Carrusel */
 
 .contenedor-carousel-control {
     position: relative;
@@ -132,11 +130,14 @@ h2 {
     border-radius: 10px;
 }
 
+/* Quienes somos */
+
+
 /* Catalogo */
 
 .card {
-    width: auto;
-    
+    /* width: 8rem; */
+    margin: auto;
 }
 
 .card-text .card-tittle {

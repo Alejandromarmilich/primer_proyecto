@@ -21,7 +21,7 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Mantenerme logueado</label>        
         <div class="mb-3 form-check">
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary">Iniciar sesión</button>
         </div>
     </div>
 </form>
