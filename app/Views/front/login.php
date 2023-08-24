@@ -1,9 +1,9 @@
 <!-- Inicio seccion de logueo -->
 <div class='container mx-md-auto p-md-5'>
     <h2>Ingrese su correo y contraseña para loguearse</h2>
-<form class=''>
+<form class='container card'>
   <div class="mb-3">
-  <div class="form-floating mb-3">
+  <div class="form-floating my-3">
   <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
   <label for="floatingInput">Correo electrónico</label>
 </div>
