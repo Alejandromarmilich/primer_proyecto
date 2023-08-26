@@ -16,7 +16,4 @@
     <link rel="shortcut icon" href="./assets/img/glow_ico.ico" type="image/x-icon">
 
 </head>
-<header class='titulo'>
-    
-</header>
 <body>
