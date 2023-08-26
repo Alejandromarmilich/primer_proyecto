@@ -1,3 +1,5 @@
+Integrantes: Guillermo García. Alejandro Herrera.
+
 # Ejercicio Integrador – Desarrollo Web responsive
 Para poner en práctica los conceptos teóricos vistos sobre diseño responsive y requerimientos de software se propone:
 ## Ejercicio 1
