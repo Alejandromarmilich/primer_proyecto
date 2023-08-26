@@ -1,0 +1,195 @@
+CRITICAL - 2023-08-21 14:42:00 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 14:43:09 --> syntax error, unexpected token "}", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\xampp\\htdocs\\isfd\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 14:43:19 --> syntax error, unexpected token "}", expecting ";" or "{"
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\xampp\\htdocs\\isfd\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 14:43:24 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 14:43:27 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:21:36 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:22:18 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:22:21 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:23:17 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:23:19 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:23:42 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:23:55 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:24:15 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:24:27 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:30:51 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:30:54 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:36:43 --> Undefined variable $router
+in APPPATH\Config\Routes.php on line 33.
+ 1 APPPATH\Config\Routes.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php', 33)
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('F:\\xampp\\htdocs\\isfd\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:37:47 --> Invalid file: "front/contacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/contacto', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('front/contacto')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->contacto()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:38:01 --> Invalid file: "front/contacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/contacto', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('front/contacto')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->contacto()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:38:39 --> Invalid file: "front/contacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/contacto', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('front/contacto')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->contacto()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:40:02 --> Invalid file: "front/contacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/contacto', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('front/contacto')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->contacto()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:40:09 --> Invalid file: "front/contacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/contacto', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('front/contacto')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->contacto()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:40:12 --> Invalid file: "front/contacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/contacto', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('front/contacto')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->contacto()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 16:40:51 --> Invalid file: "front/contacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/contacto.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/contacto', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('front/contacto')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->contacto()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
