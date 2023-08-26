@@ -17,6 +17,6 @@
 
 </head>
 <header class='titulo'>
-    <h1 class='text-center'>Bienvenido a nuestra página principal</h1>
+    
 </header>
 <body>
