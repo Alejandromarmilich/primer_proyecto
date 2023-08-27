@@ -51,9 +51,13 @@ Nota: al ser una web estática se puede repetir partes del código en todas las 
 Construir la Historia de Usuario correspondiente al Login (punto 5 del ejercicio anterior). Tener en cuenta Nombre de la HU; descripción y criterios de aceptación (mínimo 3).
 
 HISTORIA DE USUARIO
+
 Título: 5 - Inicio de Sesión para el Login a la Página de Venta de Celulares
+
 Como usuario registrado en la página de venta de celulares
+
 Deseo poder iniciar sesión en mi cuenta para acceder a las funcionalidades y realizar compras de manera segura y personalizada.
+
 Criterios de Aceptación:
 1.	Interfaz de Inicio de Sesión: La página de inicio de sesión debe presentar un formulario de usuario y contraseña claramente visible y accesible.
 2.	Campos de Inicio de Sesión: El formulario de inicio de sesión debe tener campos separados para el nombre de usuario (o correo electrónico) y la contraseña.
@@ -67,6 +71,9 @@ Criterios de Aceptación:
 10.	Diseño Responsivo: La página de inicio de sesión debe ser fácilmente accesible y funcional en dispositivos móviles y de escritorio.
 
 Integrantes del grupo:
+
 •	García, Guillermo Juan José;
+
 •	Herrera, David Alejandro;
+
 •	Verón, Juan Ramón.
