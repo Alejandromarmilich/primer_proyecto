@@ -1,8 +1,9 @@
     <!--Inicio Nuevo Footer-->
-    <footer class="container-fluid">
+
+    <footer id="footer-view" class="container-fluid">
       <div class="row p-5 bg-dark text-white"> 
 
-        <div class="col-xs-12 col-nd-12 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           
           <div class="mb-3">
           <img src="./assets/img/glow_logo.webp" alt="logo marca" width='90'>
@@ -12,7 +13,7 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-nd-12 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           <p class="h5 d-flex justify-content-center mt-3">Menú</p>
           <div class="mb-1 d-flex justify-content-center">
             <a class="text-white text-decoration-none" href="principal"
@@ -35,7 +36,7 @@
             >
           </div>
         </div>
-        <div class="col-xs-12 col-nd-12 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           <p class="h5 d-flex justify-content-center mt-3">Usuarios</p>
           <div class="mb-1 d-flex justify-content-center">
             <a
@@ -53,23 +54,23 @@
           </div>
         </div>
         
-        <div class="col-xs-12 col-nd-12 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
             <p class="h5 mb-3 d-flex justify-content-center mt-3">Contacto</p>
             <div class="row justify-content-around">
                 <!-- Facebook -->
-                <div class='col-auto contenedor-iconos'>
+                <div class='col-3 contenedor-iconos'>
                     <a href="https://www.facebook.com/" target='_blank' rel='norrefer norreper'><img src="./assets/icons/facebook.svg" alt="Facebook"></a>
                 </div>
                 <!-- Instagram -->
-                <div class='col-auto contenedor-iconos'>
+                <div class='col-3 contenedor-iconos'>
                     <a href="https://www.instagram.com/" target='_blank' rel='norrefer norreper'><img src="./assets/icons/instagram.svg" alt="Instagram"></a>
                 </div>
                 <!-- Twitter -->
-                <div class='col-auto contenedor-iconos'>
+                <div class='col-3 contenedor-iconos'>
                     <a href="https://www.twitter.com/" target='_blank' rel='norrefer norreper'><img src="./assets/icons/twitter.svg" alt="Twitter"></a>
                 </div>
                 <!-- Whatsapp -->
-                <div class='col-auto contenedor-iconos'>
+                <div class='col-3 contenedor-iconos'>
                     <a href="https://wa.me/549113334444" target='_blank' rel='norrefer norreper'><img src="./assets/icons/whatsapp.svg" alt="Whatsapp"></a>                    
                 </div> 
             </div>

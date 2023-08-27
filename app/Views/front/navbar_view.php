@@ -1,6 +1,6 @@
 <!-- Inicio de la barra de navegación -->
 
-<nav class="navbar navbar-expand-lg bg-body-green">
+<nav id="navabar-view" class="navbar navbar-expand-lg bg-body-green fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand me-auto barra" href="<?php echo base_url('principal')?>">
         <!-- Logo de la empresa  -->

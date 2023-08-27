@@ -1,6 +1,7 @@
-<!-- Seccion catalogo -->
-<section id='quienes_somos'>
-    <div class='container'>
+<!-- Seccion Catalogo -->
+
+<section id='quienes_somos' class='container my-5 mx-md-auto'>
+    <div class='container my-5 mx-md-auto'>
         <h2 class='text-center my-3'>Catálogo de celulares</h2>
         <div class='container row m-auto'>
             <div class='card col-12 col-md-6 col-lg-2 my-3'>
@@ -36,3 +37,5 @@
         </div>
     </div>
 </section>
+
+<!-- Fin seccion Catalogo -->

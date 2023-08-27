@@ -130,13 +130,11 @@ h2 {
     border-radius: 10px;
 }
 
-/* Quienes somos */
-
 
 /* Catalogo */
 
 .card {
-    /* width: 8rem; */
+    
     margin: auto;
 }
 
@@ -148,6 +146,10 @@ h2 {
     height: 10rem;
     object-fit: contain;
 }
+
+/* Seccion registro */
+
+
 
 /* Pie de página - footer */
 
