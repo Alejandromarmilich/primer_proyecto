@@ -49,3 +49,24 @@ Nota: al ser una web estática se puede repetir partes del código en todas las 
 
 ## Ejercicio 2
 Construir la Historia de Usuario correspondiente al Login (punto 5 del ejercicio anterior). Tener en cuenta Nombre de la HU; descripción y criterios de aceptación (mínimo 3).
+
+HISTORIA DE USUARIO
+Título: 5 - Inicio de Sesión para el Login a la Página de Venta de Celulares
+Como usuario registrado en la página de venta de celulares
+Deseo poder iniciar sesión en mi cuenta para acceder a las funcionalidades y realizar compras de manera segura y personalizada.
+Criterios de Aceptación:
+1.	Interfaz de Inicio de Sesión: La página de inicio de sesión debe presentar un formulario de usuario y contraseña claramente visible y accesible.
+2.	Campos de Inicio de Sesión: El formulario de inicio de sesión debe tener campos separados para el nombre de usuario (o correo electrónico) y la contraseña.
+3.	Validación de Datos: Si el usuario intenta enviar el formulario de inicio de sesión con campos vacíos o incorrectos, se debe mostrar un mensaje de error indicando los campos requeridos o datos inválidos.
+4.	Inicio de Sesión Exitoso: Cuando el usuario ingrese correctamente sus credenciales, deberá ser redirigido a la página de inicio de la plataforma de venta de celulares.
+5.	Recuperación de Contraseña: Debe proporcionarse un enlace de "¿Olvidaste tu contraseña?" que permita a los usuarios restablecer su contraseña en caso de que la hayan olvidado.
+6.	Cierre de Sesión: Una vez que el usuario haya iniciado sesión, debe haber un botón o enlace de "Cerrar sesión" claramente visible en todas las páginas para que puedan cerrar su sesión de manera segura.
+7.	Mensajes de Error Claros: En caso de que ocurra un error durante el proceso de inicio de sesión (por ejemplo, debido a una contraseña incorrecta), se debe mostrar un mensaje de error claro que indique el problema y cómo solucionarlo.
+8.	Seguridad: La página de inicio de sesión debe utilizar medidas de seguridad, como cifrado de contraseñas, para proteger los datos sensibles de los usuarios.
+9.	Recuerda Sesión: Debe haber una opción para "Recordar sesión" que permita a los usuarios mantenerse conectados en el mismo dispositivo sin tener que iniciar sesión repetidamente.
+10.	Diseño Responsivo: La página de inicio de sesión debe ser fácilmente accesible y funcional en dispositivos móviles y de escritorio.
+
+Integrantes del grupo:
+•	García, Guillermo Juan José;
+•	Herrera, David Alejandro;
+•	Verón, Juan Ramón.
