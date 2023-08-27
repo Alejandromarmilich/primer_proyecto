@@ -2,7 +2,7 @@
 
 # Agregar comentarios con hashtag y descripción del archivo o directorio a ignorar
 # Para ignorar archivos en una ubicación especifica: nombre_del_archivo.txt si está en la raiz, /carpeta/nombre_del_archivo.txt y asi sucesivamente
-# Para ignorar arhviso en cualquier parte del proyecto **/nombre_del_archivo.txt
+# Para ignorar archivo en cualquier parte del proyecto **/nombre_del_archivo.txt
 
 # Ignorar la carpeta debugbar dentro de writable en la raiz del proyecto
 /writable/debugbar/
