@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Titulo -->
-    <title>Página principal</title>
+    <title><?php echo($titulo);></title>
     
     <!-- Estilos CSS -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/master.css">
+    <link href="<?php echo base_url('./assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('./assets/css/master.css'); ?>" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="./assets/img/glow_ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo base_url('./assets/img/glow_ico.ico'); ?>" type="image/x-icon">
 
 </head>
 <body>
