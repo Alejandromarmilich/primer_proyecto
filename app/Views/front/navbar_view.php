@@ -39,4 +39,4 @@
   </div>
 </nav>
 
-<!-- Fin de la barra de navegación -->
+<!-- Fin de la barra de navegación -->  
