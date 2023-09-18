@@ -6,3 +6,4 @@
 
 # Ignorar la carpeta debugbar dentro de writable en la raiz del proyecto
 /writable/debugbar/
+/writable/logs/

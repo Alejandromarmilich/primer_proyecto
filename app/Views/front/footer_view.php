@@ -41,7 +41,7 @@
           <div class="mb-1 d-flex justify-content-center">
             <a
               class="text-white text-decoration-none"
-              href=""
+              href="login"
               >Iniciar sesión</a
             >
           </div>
