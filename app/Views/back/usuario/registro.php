@@ -5,7 +5,7 @@
     <h2>Ingrese sus datos para registrarse</h2>
 
     <?php $validation = \Config\Services::validation(); ?>
-    <form class="container row g-3 my-6" method="post" action="<?php echo base_url('/enviar-form') ?>">
+    <form class="container row g-3 my-6" method="post" action="<?php echo base_url('/usuario_controller') ?>">
       <?= csrf_field(); ?>
       <?= csrf_field(); ?>
       <?php if (!empty(session()->getFlashdata('fail'))) : ?>
@@ -64,7 +64,7 @@
           <!-- Contraseña del usuario -->
           <div class="col-lg-6">
             <label for="inputPassword4" class="form-label text-white mt-2">Contraseña</label>
-            <input type="pass" name="pass" class="form-control" id="inputPassword4" placeholder="Ingrese un contraseña segura entre 8-20 caractéres">
+            <input type="password" name="pass" class="form-control" id="inputPassword4" placeholder="Ingrese un contraseña segura entre 8-20 caractéres">
             <!-- Error -->
             <?php if ($validation->getError('pass')) { ?>
               <div class="alert alert-danger mt-2">
@@ -142,17 +142,8 @@
             <?php } ?>
           </div>
         </div>
-
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Mantenerme conectado
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Registrarme</button>
+        <div class="col-12 mt-3">
+          <button type="submit" class="btn btn-primary me-3">Registrarme</button>
           <button type="reset" class="btn btn-danger">Cancelar</button>
         </div>
       </div>
