@@ -74,4 +74,4 @@ Integrantes del grupo:
 
 •	Herrera, David Alejandro;
 
-•	Verón, Juan Ramón.
+•	García, Florencia.
