@@ -1,6 +1,6 @@
 <?php
 namespace App\Controllers;
-use App\Controllers\usuario_Model;
+use App\Models\usuario_Model;
 use CodeIgniter\Controller;
 class usuario_controller extends Controller{
     public function __construct(){
@@ -21,7 +21,7 @@ class usuario_controller extends Controller{
             'email' => 'required|min_length[3]|max_lenght[25]|max_length[100]|valid_mail|is_unique[usuarios.mail]',
             'pass' => 'required|min_length[3]|max_lenght[25]'
         ]);
-        $formModel = new usuarios_Model();
+        $formModel = new usuario_Model();
         if (!$input) {
             $data['titulo'] = 'Registro';
             echo view('front/head_view',$data);
@@ -39,7 +39,7 @@ class usuario_controller extends Controller{
 
             //Flashdata funciona solo en redirigir la funcion en el controlador en la vista de carga
             session()->setFlashdata('sucess','Usuario registrado con éxito');
-            return $this->response->redirect('/login');
+            return redirect()->to(base_url('/registro'));
         }
     }
 

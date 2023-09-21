@@ -14,5 +14,5 @@ class usuario_Model extends Model{
         'perfil_id',
         'baja',
         'created_at'
-        ]
+    ];
 }
