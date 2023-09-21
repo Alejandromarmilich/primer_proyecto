@@ -44,7 +44,7 @@ $routes->post('/enviar-form','usuario_controller::formValidation');
 
 // Rutas del Login
 $routes->get('/login','Login_controller');
-$routes->post('/enviarlogin','Login_controller::auth');
+$routes->post('/enviarlogin','login_controller::auth');
 $routes->get('/panel','Panel_controller::index',['filter'=>'auth']);
 $routes->get('/logout','Login_controller:logout');
 

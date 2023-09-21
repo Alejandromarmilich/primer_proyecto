@@ -30,10 +30,10 @@ class usuario_controller extends Controller{
             echo view('front/footer_view');
         } else {
             $formModel->save([
-                'nombre'=>$this->request->getVar('nombre'),
-                'apellido'=>$this->request->getVar('apellido'),
-                'usuario'=>$this->request->getVar('usuario'),
-                'email'=>$this->request->getVar('email'),
+                'nombre'=> $this-> request -> getVar ('nombre'),
+                'apellido'=> $this-> request -> getVar ('apellido'),
+                'usuario'=> $this-> request -> getVar ('usuario'),
+                'email'=> $this-> request -> getVar ('email'),
                 'pass'=>password_hash($this->request->getVar('pass'), PASSWORD_DEFAULT),//password_hash crea un nuevo hash de contraseña usando un algoritmo de hash de unico sentido                
             ]);
 
@@ -42,6 +42,5 @@ class usuario_controller extends Controller{
             return redirect()->to(base_url('/registro'));
         }
     }
-
 }
 ?>

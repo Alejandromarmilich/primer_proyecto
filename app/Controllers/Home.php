@@ -3,7 +3,7 @@
 class Home extends BaseController{
 	public function index()
 	{
-		$data['title'] = 'Página principal';
+		$data['titulo'] = 'Página principal';
 		echo view('front/head_view', $data);
 		echo view('front/navbar_view');
 		echo view('front/principal');
@@ -11,7 +11,7 @@ class Home extends BaseController{
 	}
 	public function quienes_somos()
 	{
-		$data['title'] = 'Quienes somos';
+		$data['titulo'] = 'Quienes somos';
 		echo view('front/head_view', $data);
 		echo view('front/navbar_view');
 		echo view('front/quienes_somos');
@@ -19,7 +19,7 @@ class Home extends BaseController{
 	}
 	public function acerca_de()
 	{
-		$data['title'] = 'Acerca de';
+		$data['titulo'] = 'Acerca de';
 		echo view('front/head_view', $data);
 		echo view('front/navbar_view');
 		echo view('front/acerca_de');
@@ -27,7 +27,7 @@ class Home extends BaseController{
 	}
 	public function registro()
 	{
-		$data['title'] = 'Registro';
+		$data['titulo'] = 'Registro';
 		echo view('front/head_view', $data);
 		echo view('front/navbar_view');
 		echo view('back/usuario/registro');
@@ -35,7 +35,7 @@ class Home extends BaseController{
 	}
 	public function login()
 	{
-		$data['title'] = 'Login';
+		$data['titulo'] = 'Login';
 		echo view('front/head_view', $data);
 		echo view('front/navbar_view');
 		echo view('back/usuario/login');
@@ -43,7 +43,7 @@ class Home extends BaseController{
 	}
 	public function catalogo()
 	{
-		$data['title'] = 'Catalogo';
+		$data['titulo'] = 'Catalogo';
 		echo view('front/head_view', $data);
 		echo view('front/navbar_view');
 		echo view('front/catalogo');
