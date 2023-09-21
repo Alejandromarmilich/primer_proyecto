@@ -5,14 +5,14 @@ use App\Models\usuario_Model;
 
 class login_controller extends BaseController{
     public function index(){
-        helper(['form','url']);
+			helper(['form','url']);
 
-        $dato['titulo']='login';
-        echo view('front/head_view',$dato);
-        echo view('front/nav_view');
-        echo view('back/usuario/login');
-        echo view('front/footer_view');
-    }
+			$data['titulo']='Login';
+	        echo view("front/head_view",$data);
+	        echo view("front/navbar_view");
+	        echo view("back/usuario/login");
+	        echo view("front/footer_view");
+		}
 
     public function auth(){
         $session = session();

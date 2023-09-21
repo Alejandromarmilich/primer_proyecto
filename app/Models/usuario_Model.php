@@ -3,8 +3,8 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class usuario_Model extends Model{
-    protected $table = 'usuarios';
-    protected $primaryKey = 'id_usuario';
+    protected $table = 'usuarios'; //nombre de la tabla
+    protected $primaryKey = 'id_usuario'; //identificador de la tabla
     protected $allowedFields = [
         'nombre',
         'apellido',
@@ -12,6 +12,10 @@ class usuario_Model extends Model{
         'email',
         'pass',
         'perfil_id',
+        'direccion',
+        'ciudad',
+        'provincia',
+        'cp',
         'baja',
         'created_at'
     ];

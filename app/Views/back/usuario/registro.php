@@ -5,10 +5,13 @@
     <h2>Ingrese sus datos para registrarse</h2>
 
     <?php $validation = \Config\Services::validation(); ?>
-    <form class="container row g-3 my-6" method="post" action="<?php echo base_url('/usuario_controller') ?>">
+    <form class="container row g-3 my-6" method="post" action="<?php echo base_url('/enviar-form') ?>">
       <?= csrf_field(); ?>
       <?= csrf_field(); ?>
       <?php if (!empty(session()->getFlashdata('fail'))) : ?>
+        <div class="alert alert-danger"><?= session()->getFlashdata('fail'); ?></div>
+      <?php endif ?>
+      <?php if (!empty(session()->getFlashdata('success'))) : ?>
         <div class="alert alert-danger"><?= session()->getFlashdata('success'); ?></div>
       <?php endif ?>
       <div class="card-body col-6" media="(max-widht:768px)">
@@ -64,7 +67,10 @@
           <!-- Contraseña del usuario -->
           <div class="col-lg-6">
             <label for="inputPassword4" class="form-label text-white mt-2">Contraseña</label>
-            <input type="password" name="pass" class="form-control" id="inputPassword4" placeholder="Ingrese un contraseña segura entre 8-20 caractéres">
+            <input type="password" name="pass" class="form-control" id="inputPassword4" placeholder="Ingrese un contraseña segura">
+            <span id="passwordHelpInline" class="form-text">
+              Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emoji.
+            </span>
             <!-- Error -->
             <?php if ($validation->getError('pass')) { ?>
               <div class="alert alert-danger mt-2">

@@ -23,10 +23,7 @@
 
             <div class="form-floating">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Contraseña</label>
-                <span id="passwordHelpInline" class="form-text">
-                    Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emoji.
-                </span>
+                <label for="floatingPassword">Contraseña</label>                
             </div>
             
             <input type="submit" value="Ingresar" class="btn btn-sucess">

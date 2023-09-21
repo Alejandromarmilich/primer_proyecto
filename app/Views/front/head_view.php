@@ -14,6 +14,6 @@
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?php echo base_url('./assets/img/glow_ico.ico'); ?>" type="image/x-icon">
-
+    
 </head>
 <body>
