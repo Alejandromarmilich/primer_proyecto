@@ -7,7 +7,7 @@ use CodeIgniter\HTTP\ResponseInterface;
 use CodeIgniter\HTTP\FilterInterface;
 use CodeIgniter\HTTP\Response;
 
-class Auth implements FilterFilterInterface {
+class Auth implements FiltersFilterInterface {
     public function before( RequestInterface $request, $arguments = null ) {
         // Si el usuario no esta logueado
         if(!session()->get('logged_in')){
