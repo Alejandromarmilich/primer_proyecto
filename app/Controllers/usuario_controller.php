@@ -39,8 +39,7 @@ class usuario_controller extends Controller{
 
             //Flashdata funciona solo en redirigir la funcion en el controlador en la vista de carga
             session()->setFlashdata('sucess','Usuario registrado con éxito');
-            // return $this->response->redirect('/login');
-            return redirect(); // Hay que corregir la direccion del registro de usuario
+            return redirect()->to(base_url('/registro'));
         }
     }
 
