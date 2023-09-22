@@ -7,7 +7,7 @@
         
         <!-- Mensaje de error -->
         <?php if (session()->getFlashdata('msg')):?>
-            <div class="alert alert-warning d-flex justify-content-center text-center" role="alert">
+            <div class="alert alert-warning" role="alert">
                 <?php session()->getFlashData('msg') ?>
             </div>
         <?php endif;?>
