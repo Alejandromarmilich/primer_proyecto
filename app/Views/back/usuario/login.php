@@ -7,11 +7,13 @@
         </div>
 
         <!-- Mensaje de error -->
-        <?php if (session()->getFlashdata('msg')) : ?>
-            <div class="alert alert-warning" role="alert">
-                <?php session()->getFlashData('msg') ?>
-            </div>
-        <?php endif; ?>
+        <div class="text-black">
+            <?php if (session()->getFlashdata('msg')) : ?>
+                <div class="alert alert-warning" role="alert">
+                    <?php session()->getFlashData('msg') ?>
+                </div>
+            <?php endif; ?>
+        </div>
 
         <!-- Inicio seccion de formulario Login -->
 
