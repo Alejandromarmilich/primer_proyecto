@@ -2,7 +2,7 @@
 <section id="login" class="container my-5 d-flex justify-content-center">
     <div class="card" style="width: 50%;">
     <div class="card-header text-center">
-        <h2>Iniciar sesion</h2>
+        <h2 class="text-black">Iniciar sesion</h2>
     </div>    
         
         <!-- Mensaje de error -->
@@ -14,7 +14,7 @@
         
         <!-- Inicio seccion de formulario Login -->
 
-        <form class='container card' method="post" action="<?php echo base_url('enviarlogin')?>">
+        <form class='card login' method="post" action="<?php echo base_url('enviarlogin')?>">
         <div class="card-body" media="(max-width:768px)">
             <div class="mb-2">
                 <div class="form-floating my-3">

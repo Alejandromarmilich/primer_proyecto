@@ -19,7 +19,7 @@ class usuario_controller extends Controller{
             'apellido'=> 'required|min_length[3]|max_length[25]',
             'usuario' => 'required|min_length[3]|is_unique[usuarios.usuario]',
             'email' => 'required|min_length[3]|max_length[100]|valid_email|is_unique[usuarios.email]',
-            'pass' => 'required|min_length[3]|max_length[25]',
+            'pass' => 'required|min_length[8]|max_length[25]',
             'pass_confirm' => 'required_with[pass]|matches[pass]',
             'direccion'=> 'required|min_length[3]|max_length[100]',
             'ciudad'=> 'required|min_length[3]|max_length[50]',
