@@ -1,8 +1,8 @@
 <!-- Inicio seccion login -->
 
 <section id="login" class="container my-5 d-flex justify-content-center">
-    <div class="card" style="width: 50%;">
-    <div class="card-header text-center">
+    <div class="card my-5 pb-5" style="width: 50%;">
+    <div class="card-header my-5 text-center">
         <h2 class="text-black">Iniciar sesion</h2>
     </div>    
         
