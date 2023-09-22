@@ -14,7 +14,7 @@
         
         <!-- Inicio seccion de formulario Login -->
 
-        <form class='card login' method="post" action="<?php echo base_url('enviarlogin')?>">
+        <form class='card' method="post" action="<?php echo base_url('enviarlogin')?>">
         <div class="card-body" media="(max-width:768px)">
             <div class="mb-2">
                 <div class="form-floating my-3">

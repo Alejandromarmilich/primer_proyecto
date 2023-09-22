@@ -2,7 +2,7 @@
 namespace App\Controllers;
 use App\Models\usuario_Model;
 use CodeIgniter\Controller;
-class usuario_controller extends Controller{
+class usuario_controller extends BaseController{
     public function __construct(){
         helper(['form','url']);
     }
