@@ -28,7 +28,7 @@ class login_controller extends BaseController{
             $ba = $data ['baja'];
             if ($ba == 'SI') {
                 $session->setFlashdata('msg','usuario dado de baja');
-                return redirect()->to('/login_controller');
+                return redirect()->to('login_controller');
             }
             //Se verifican los datos ingresados para iniciar, si cumple la verificacion inicia la sesion
             $verify_pass = password_verify($password, $pass);
@@ -47,7 +47,7 @@ class login_controller extends BaseController{
                 $session->set($ses_data);
 
                 session()->setFlashdata('msg','¡Bienvenido!');
-                return redirect()->to('/panel');    
+                return redirect()->to('panel');    
             } else {
                 // no paso la validacion de la password
                 $session->setFlashdata('msg','Password incorrecta');
@@ -55,7 +55,7 @@ class login_controller extends BaseController{
             }
         }else{
             $session->setFlashdata('msg','No existe el email o es incorrecto');
-            return redirect()->to('/login_controller');
+            return redirect()->to('login_controller');
         }
     }
 

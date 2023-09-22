@@ -12,7 +12,7 @@
         <div class="alert alert-danger"><?= session()->getFlashdata('fail'); ?></div>
       <?php endif ?>
       <?php if (!empty(session()->getFlashdata('success'))) : ?>
-        <div class="alert alert-danger"><?= session()->getFlashdata('success'); ?></div>
+        <div class="alert alert-success"><?= session()->getFlashdata('success'); ?></div>
       <?php endif ?>
       <div class="card-body col-6" media="(max-widht:768px)">
         <!-- Nombre del usuario-->
@@ -75,6 +75,18 @@
             <?php if ($validation->getError('pass')) { ?>
               <div class="alert alert-danger mt-2">
                 <?= $error = $validation->getError('pass'); ?>
+              </div>
+            <?php } ?>
+          </div>
+          <!-- Verificacion de la contraseña del usuario -->
+          <div class="col-lg-6">
+            <label for="inputPassword4" class="form-label text-white mt-2">Contraseña</label>
+            <input type="password" name="pass_confirm" class="form-control" id="inputPassword4" placeholder="Ingrese nuevamente su contraseña">
+            
+            <!-- Error -->
+            <?php if ($validation->getError('pass_confirm')) { ?>
+              <div class="alert alert-danger mt-2">
+                <?= $error = $validation->getError('pass_confirm'); ?>
               </div>
             <?php } ?>
           </div>

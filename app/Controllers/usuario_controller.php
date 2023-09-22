@@ -20,6 +20,7 @@ class usuario_controller extends Controller{
             'usuario' => 'required|min_length[3]|is_unique[usuarios.usuario]',
             'email' => 'required|min_length[3]|max_length[100]|valid_email|is_unique[usuarios.email]',
             'pass' => 'required|min_length[3]|max_length[25]',
+            'pass_confirm' => 'required_with[pass]|matches[pass]',
             'direccion'=> 'required|min_length[3]|max_length[100]',
             'ciudad'=> 'required|min_length[3]|max_length[50]',
             'cp'=> 'required|min_length[4]|max_length[4]',
@@ -44,7 +45,7 @@ class usuario_controller extends Controller{
             ]);
 
             //Flashdata funciona solo en redirigir la funcion en el controlador en la vista de carga
-            session()->setFlashdata('success','Usuario registrado con exito');
+            session()->setFlashdata('success','Usuario registrado con éxito');
             return redirect()->to(base_url('/registro'));
         }
     }
