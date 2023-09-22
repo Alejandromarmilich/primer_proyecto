@@ -1,7 +1,7 @@
 <!-- Inicio seccion login -->
 
-<section id="login" class="container my-5 d-flex justify-content-center">
-    <div class="card my-5 pb-5">
+<section id="login" class="container my-5 px-5 d-flex justify-content-center">
+    <div class="col-12 col-md-8 col-lg-4 bg-body my-5 pb-5 rounded">
         <div class="my-5 text-center">
             <h2 class="text-black">Iniciar sesion</h2>
         </div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="container mt-3">
                     <input type="submit" value="Ingresar" class="btn btn-primary">
-                    
+
                     <a href="<?php echo base_url('login'); ?>" class="btn btn-danger">Cancelar</a>
                     <br><span class="mt-3">¿Aún no se registró? <a href="<?php echo base_url('/registro') ?>">Registrarse aquí</a></span>
                 </div>
