@@ -10,7 +10,7 @@
         <div class="text-black">
             <?php if (session()->getFlashdata('msg')) : ?>
             <div class="alert alert-warning" role="alert">
-                <?php session()->getFlashData('msg') ?>
+                <?php session()->getFlashData('msg') ?>No Existe este Usuario!.
             </div>
             <?php endif; ?>
         </div>
