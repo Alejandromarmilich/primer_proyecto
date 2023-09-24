@@ -1,0 +1,210 @@
+{
+  "id": "9b49583c-0940-49b7-8dc5-7c61e857643f",
+  "version": "2.0",
+  "name": "CP-Glow",
+  "url": "http://localhost/primer_proyecto/login",
+  "tests": [{
+    "id": "36a96314-c730-4cee-954b-e9ec26ab8669",
+    "name": "InicioDeSesion-Exito",
+    "commands": [{
+      "id": "7e404519-8a82-46e9-a65a-136ba79d48d2",
+      "comment": "",
+      "command": "open",
+      "target": "/primer_proyecto/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea4e3846-2454-44c5-8877-221f0dd6024e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "636x674",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7a00d6e-301e-4c78-9ba2-6a051fe0ccfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingInput",
+      "targets": [
+        ["id=floatingInput", "id"],
+        ["name=email", "name"],
+        ["css=#floatingInput", "css:finder"],
+        ["xpath=//input[@id='floatingInput']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8948902-45b1-47ad-8df3-49a45a5fe2b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingInput",
+      "targets": [
+        ["id=floatingInput", "id"],
+        ["name=email", "name"],
+        ["css=#floatingInput", "css:finder"],
+        ["xpath=//input[@id='floatingInput']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "flor095@gmail.com"
+    }, {
+      "id": "116a609c-8662-40a2-9c68-dc4adedbaf56",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingPassword",
+      "targets": [
+        ["id=floatingPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#floatingPassword", "css:finder"],
+        ["xpath=//input[@id='floatingPassword']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98431286-fcaa-4e6d-adc9-30781d0b27ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingPassword",
+      "targets": [
+        ["id=floatingPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#floatingPassword", "css:finder"],
+        ["xpath=//input[@id='floatingPassword']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123Florencia"
+    }, {
+      "id": "cba4b06a-0014-4bfa-8bcf-5a9011989bc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Ingresar']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c26e135d-443d-47d4-a365-674f1d159dbd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "¡Bienvenido!"
+    }]
+  }, {
+    "id": "ce1c344a-eef5-4a18-b365-7b987ad3e0d7",
+    "name": "InicioDeSesion-Error",
+    "commands": [{
+      "id": "0a682b1b-ed89-4fe8-889e-12389151a02e",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/primer_proyecto/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13c7e99b-4991-4213-8a15-bb5930a4f067",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "636x674",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1d998c1-c143-439d-b815-c00404c19cd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingInput",
+      "targets": [
+        ["id=floatingInput", "id"],
+        ["name=email", "name"],
+        ["css=#floatingInput", "css:finder"],
+        ["xpath=//input[@id='floatingInput']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e0b53fc-dab9-47da-abd9-0b956bf223c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingInput",
+      "targets": [
+        ["id=floatingInput", "id"],
+        ["name=email", "name"],
+        ["css=#floatingInput", "css:finder"],
+        ["xpath=//input[@id='floatingInput']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "flor095@gmail.com"
+    }, {
+      "id": "f73163fa-c8e7-4e5b-a4ef-7be06e6a46f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingPassword",
+      "targets": [
+        ["id=floatingPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#floatingPassword", "css:finder"],
+        ["xpath=//input[@id='floatingPassword']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5463fb20-3846-403d-9ba5-260fc30dfad4",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingPassword",
+      "targets": [
+        ["id=floatingPassword", "id"],
+        ["name=pass", "name"],
+        ["css=#floatingPassword", "css:finder"],
+        ["xpath=//input[@id='floatingPassword']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12345flor"
+    }, {
+      "id": "8c616db3-cb4a-48e6-b087-5bf198451bc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Ingresar']", "xpath:attributes"],
+        ["xpath=//section[@id='login']/div/form/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e0f3348-2302-4da1-8498-a69cc8d17854",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//section[@id='login']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "Error al iniciar sesion"
+    }]
+  }],
+  "suites": [{
+    "id": "739b0516-cbc0-4f01-a3e5-fa5f1d83b134",
+    "name": "CasosdePruebaSuite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36a96314-c730-4cee-954b-e9ec26ab8669", "ce1c344a-eef5-4a18-b365-7b987ad3e0d7"]
+  }],
+  "urls": ["http://localhost/", "http://localhost/primer_proyecto/login"],
+  "plugins": []
+}
