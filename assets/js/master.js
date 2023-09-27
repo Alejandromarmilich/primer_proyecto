@@ -10,7 +10,7 @@ fetch("https://apis.datos.gob.ar/georef/api/provincias?campos=id,nombre")
     });
   })
   .catch((error) => {
-    console.log("Uffff tenemos un error " + error + " !!!");
+    console.log("Tenemos un error " + error + " !!!");
   });
 
 listadoProvincias.addEventListener("change", function () {
@@ -28,6 +28,6 @@ listadoProvincias.addEventListener("change", function () {
       });
     })
     .catch((error) => {
-      console.log("Uffff tenemos un error " + error + " !!!");
+      console.log("Tenemos un error " + error + " !!!");
     });
 });
