@@ -28,13 +28,10 @@ $perfil = $session->get('perfil_id');
                     <a class="nav-link" aria-current="page" href="principal">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="catalogo">Catálogo</a>
+                    <a class="nav-link" href="registro">Registrarse</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="quienes_somos">Quiénes somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="acerca_de">Acerca de</a>
+                    <a class="nav-link" href="login">Login</a>
                 </li>
                 <li class="nav-tiem">
                     <a class="nav-link" href="logout">Cerrar Sesión</a>
@@ -87,9 +84,7 @@ $perfil = $session->get('perfil_id');
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="principal">Inicio</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="catalogo">Catálogo</a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="quienes_somos">Quiénes somos</a>
                 </li>

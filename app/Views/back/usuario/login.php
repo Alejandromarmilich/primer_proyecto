@@ -10,7 +10,7 @@
         <div class="text-black">
             <?php if (session()->getFlashdata('msg')) : ?>
             <div class="alert alert-warning" role="alert">
-                <?php session()->getFlashData('msg') ?>¡No Existe este Usuario!
+                <?php session()->getFlashData('msg') ?> Error al iniciar sesion
             </div>
             <?php endif; ?>
         </div>
