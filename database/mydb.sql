@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 24-09-2023 a las 21:55:14
+-- Tiempo de generación: 28-09-2023 a las 21:13:10
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 7.4.33
 
@@ -67,8 +67,10 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `usuario`, `email`, `pass`, `perfil_id`, `direccion`, `ciudad`, `provincia`, `cp`, `baja`) VALUES
-(1, 'Guille', 'Garcia', 'guijujo', 'guijujo@gmail.com', '$2y$10$c9H.Ma7ZuWOQ2PDjSocoGeIqJdumsatf.9yZaOsw4JT/0sSJb4tPO', 1, 'Campamento G2', 'Ituzaingó', '', 3302, 'NO'),
-(2, 'Ale', 'Herrera', 'aleh', 'aleh@gmail.com', '$2y$10$9bgLx.Md8pY9sspInqtt7eUXzZ8AhmayI7NTHFGFU0nyai3fmp87a', 2, 'Campamento G2', 'Ituzaingo', '', 3302, 'NO');
+(6, 'Guille', 'García', 'guille', 'guillegarcia@gmail.com', '$2y$10$Bh/Qj..YSBRFIZzF9GvX4OrIAzSmOPy2KaNPdYhmeWILRCnsxBX7O', 1, 'Calle Falsa 123', 'Ituzaingo', '', 3302, 'NO'),
+(7, 'Ale', 'Herrera', 'aleh', 'aleherrera@gmail.com', '$2y$10$bsiTB/FNW.Ja1BA.covO7eGUAl/korPGTrTk7OvWJDa/e.B7e2UpS', 2, 'Calle Falsa 123', 'Ituzaingo', '', 3302, 'NO'),
+(8, 'Flor', 'Garcia', 'florg', 'florgarcia@gmail.com', '$2y$10$Q5Ufq1D1eZk6XbIYnXUvIeIiBDYotvS10V1dVKpQay7TmTBnlYHbK', 2, 'Calle Falsa 123', 'Corrientes', '', 3300, 'NO'),
+(9, 'Guillermo', 'García', 'guilleg', 'guillermog@gmail.com', '$2y$10$S5i/znfFA.OE760fJxdTO.goYSZSQW3r/a/ReDW94l3N3HMy6ui6G', 2, 'Calle Falsa 123', 'Ituzaingo', '', 3352, 'NO');
 
 --
 -- Índices para tablas volcadas
@@ -102,7 +104,7 @@ ALTER TABLE `perfiles`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- Restricciones para tablas volcadas
