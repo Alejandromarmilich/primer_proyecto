@@ -47,7 +47,7 @@
         ["xpath=//section[@id='login']/div/form/div/div/div/input", "xpath:idRelative"],
         ["xpath=//div/input", "xpath:position"]
       ],
-      "value": "flor095@gmail.com"
+      "value": "florgarcia@gmail.com"
     }, {
       "id": "116a609c-8662-40a2-9c68-dc4adedbaf56",
       "comment": "",
@@ -75,7 +75,7 @@
         ["xpath=//section[@id='login']/div/form/div/div[2]/input", "xpath:idRelative"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
-      "value": "123Florencia"
+      "value": "admin12345"
     }, {
       "id": "cba4b06a-0014-4bfa-8bcf-5a9011989bc5",
       "comment": "",
