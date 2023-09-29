@@ -1,7 +1,7 @@
 <!-- Inicio seccion login -->
 
 <section id="login" class="container my-5 px-5 d-flex justify-content-center">
-    <div class="col-12 col-md-6 col-lg-3 bg-body my-5 pb-5 rounded">
+    <div class="col-12 col-md-6 col-lg-4 bg-body my-5 pb-5 rounded">
         <div class="my-5 text-center">
             <h2 class="text-black">Iniciar sesion</h2>
         </div>
