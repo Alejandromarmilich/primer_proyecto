@@ -1,8 +1,8 @@
 <?php
 namespace App\Controllers;
-use App\Models\usuario_Model;
+use App\Models\UsuarioModel;
 use CodeIgniter\Controller;
-class usuario_controller extends BaseController{
+class UsuarioController extends BaseController{
     public function __construct(){
         helper(['form','url']);
     }
@@ -25,7 +25,7 @@ class usuario_controller extends BaseController{
             'ciudad'=> 'required|min_length[3]|max_length[50]',
             'cp'=> 'required|min_length[4]|max_length[4]',
         ]);
-        $formModel = new usuario_Model();
+        $formModel = new UsuarioModel();
         if (!$input) {
             $data['titulo'] = 'registro';
             echo view('front/head_view',$data);

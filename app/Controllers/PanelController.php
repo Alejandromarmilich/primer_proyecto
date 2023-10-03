@@ -2,7 +2,7 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 
-class panel_controller extends Controller{
+class PanelController extends Controller{
     public function index(){
         $session = session();
         $nombre = $session->get('usuario');

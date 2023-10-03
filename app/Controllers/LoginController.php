@@ -1,9 +1,9 @@
 <?php
 namespace App\Controllers;
 use CodeIgniter\Controller;
-use App\Models\usuario_Model;
+use App\Models\UsuarioModel;
 
-class login_controller extends BaseController{
+class LoginController extends BaseController{
     public function index(){
 			helper(['form','url']);
 
@@ -16,7 +16,7 @@ class login_controller extends BaseController{
 
     public function auth(){
         $session = session();
-        $model = new usuario_Model();
+        $model = new UsuarioModel();
 
         //traemos los datos del formulario
         $email = $this->request->getVar('email');

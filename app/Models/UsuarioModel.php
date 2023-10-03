@@ -2,7 +2,7 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class usuario_Model extends Model{
+class UsuarioModel extends Model{
     protected $table = 'usuarios'; //nombre de la tabla
     protected $primaryKey = 'id_usuario'; //identificador de la tabla
     protected $allowedFields = [
